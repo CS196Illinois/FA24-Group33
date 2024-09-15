@@ -3,6 +3,6 @@ Group Name: TEAM_NAME
 
 [MVP Link](https://docs.google.com/document/d/1xFI9DDdO5HZAcu36Y6NL-RTDry5E3WHkfy-ZEWuqbXM/edit?usp=sharing)
 
-Team Members: STUDENTS_NETIDS
+Team Members: yaotaol2, whubbe2, abhic2, anyak2, pbairwa2, aasiyam2
 
-Project Manager: PM_NETID
+Project Manager: palakk2
