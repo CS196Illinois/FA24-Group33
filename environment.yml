@@ -1,0 +1,14 @@
+# Environment definition file for Conda for ease of install
+# To create the environment, run the following command:
+# conda env create -f environment.yml
+name: skin-cancer-detection-model-webpage
+dependencies:
+    - python=3.11
+    - keras
+    - tensorflow
+    - numpy
+    - streamlit
+    - pillow
+    - pip:
+        - scikit-learn
+        - opencv-python
