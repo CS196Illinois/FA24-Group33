@@ -108,6 +108,25 @@ def app():
                    **Note**: This result is based on a machine learning model and should not replace professional medical advice. Always seek the
                    opinion of a medical expert for concerns about your health.
                """)
+            
+    with tabs[2]:
+        st.header("GitHub Repository Credits")
 
+        st.markdown("""
+                    This project uses resources from the following GitHub repository:
+                    (https://github.com/deepankarvarma/Skin-Cancer-Detection--OpenCV-TensorFlow-Keras.git) \n
+                    **Description**: This repository provides a machine learning model used for the detection 
+                    of Skin Cancer by looking at uploaded images of skin lesions. It does this using OpenCV for image processing 
+                    and Tensorflow with Keras for building the model. The respository provides a user friendly experience that can be truly 
+                    impactful for millions. \n
+                    To run the code in this repository, you'll need the following dependencies:
+                    """)
+        
+        st.selectbox("Dependencies", ["Python 3.x", "TensorFlow", "Keras", "NumPy", "OpenCV"])
+
+        st.markdown("""
+                    **License**: This project is licensed under the MIT License.\n
+                    Thank you to the contributors! \n
+                    """)
 if __name__ == '__main__':
     app()
